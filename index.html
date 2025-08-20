@@ -20,8 +20,10 @@
 
 
     <main>
-     
+        <h1 class="headingWelcome">Welcome <br>To <br>Educational Tutorials</h1>
+     <div class="div1">
         <section id="home">
+            <img src="back1.jpg" height="30px" width="30px" class="Welcome">
             <h2>Welcome to Educational Tutorial</h2>
             <p>Learn new skills and expand your knowledge with our comprehensive tutorials.<br>
                 We provide the best vedio content and the Study material to enhance there skill and knowledge
@@ -51,18 +53,26 @@
         <section id="contact">
             <h2>Get in Touch</h2>
             <p>Have questions or feedback? Feel free to reach out to us.</p>
-            <form>
-                <input type="text" placeholder="Name">
-                <input type="email" placeholder="Email">
-                <textarea placeholder="Message"></textarea>
-                <button>Send</button>
-            </form>
+             <div class="form-container">
+    <h2>Job Application</h2>
+    <form id="FormBox">
+      <input type="text" id="name" placeholder="Your Name" />
+      <input type="email" id="email" placeholder="Your Email" />
+      <textarea id="message" placeholder="Your Message"></textarea>
+      <button type="submit">Submit</button>
+    </form>
+    <p id="error-msg"></p>
+  </div>
+
+  <script src="script.js"></script>
         </section>
-       
+    </div> 
     </main>
     <footer>
         <p>&copy; 2023 Educational Tutorial</p>
     </footer>
+     
+
 </body>
 </html>
 
